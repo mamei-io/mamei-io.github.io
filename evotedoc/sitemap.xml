@@ -2,27 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://127.0.0.1/</loc>
-         <lastmod>2022-06-28</lastmod>
+         <lastmod>2022-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1/about/</loc>
-         <lastmod>2022-06-28</lastmod>
+         <lastmod>2022-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1/glossary/</loc>
-         <lastmod>2022-06-28</lastmod>
+         <lastmod>2022-06-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1/section/app_mobile/</loc>
+         <lastmod>2022-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1/section/partes_sistema/</loc>
-         <lastmod>2022-06-28</lastmod>
+         <lastmod>2022-06-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://127.0.0.1/section/support/</loc>
+         <lastmod>2022-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://127.0.0.1/section/tutorial/</loc>
-         <lastmod>2022-06-28</lastmod>
+         <lastmod>2022-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

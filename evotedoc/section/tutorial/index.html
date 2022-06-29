@@ -332,6 +332,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mostrar-resultados-del-proceso-electoral" class="md-nav__link">
+    Mostrar resultados del proceso electoral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cerrar-sesion-o-salir-del-sistema" class="md-nav__link">
     Cerrar sesión o salir del sistema
   </a>
@@ -354,8 +361,38 @@
   
   
     <li class="md-nav__item">
+      <a href="../app_mobile/" class="md-nav__link">
+        VOT-E para Android
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../glossary/" class="md-nav__link">
         Glosario
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        Soporte
       </a>
     </li>
   
@@ -471,6 +508,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mostrar-resultados-del-proceso-electoral" class="md-nav__link">
+    Mostrar resultados del proceso electoral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cerrar-sesion-o-salir-del-sistema" class="md-nav__link">
     Cerrar sesión o salir del sistema
   </a>
@@ -493,17 +537,25 @@
 
 <h1 id="manual-del-usuario">Manual del usuario</h1>
 <h2 id="introduccion">Introducción</h2>
-<p>VOT-E es un sistema de voto electrónico implementado sobre <a href="../../glossary/#blockchain">Blockchain</a>. El acceso al sistema es por dirección de correo electrónico, y los votos se registran en total anonimato.
-Antes del día 30 de junio el sistema envía por correo electrónico a cada miembro del CLAME las credenciales de acceso. Con esa credencial podemos acceder al sistema en <a href="http://vpn277448768.softether.net:8080/">VOT-E</a>.</p>
+<p>VOT-E es un sistema de voto electrónico implementado sobre <a href="../../glossary/#blockchain">Blockchain</a>. El acceso al sistema es por dirección de correo electrónico, y los votos se registran en total anonimato.</p>
+<p>Martes 5 de julio el sistema envía a cada miembro del CLAME un correo electrónico con las credenciales de acceso, para el  acceso al sistema electoral <a href="http://vpn277448768.softether.net:8080/">VOT-E</a>.</p>
 <p><a class="md-button md-button--primary" href="http://vpn277448768.softether.net:8080/">VOT-E</a></p>
 <p>Características del proceso de votación</p>
 <ul>
 <li>Existen 7 cargos para postulaciones del Consejo directivo del CLAME: <strong>Presidencia</strong>, <strong>Secretaría</strong>, <strong>Tesorería</strong>, y cuatro vocalías (<strong>Norteamérica</strong>, <strong>Centroamérica</strong>, <strong>Caribe</strong> y <strong>Sudamérica</strong>)</li>
 <li>El votante (miembro del CLAME) tiene derecho a emitir un voto por cada cargo postulado. Con un máximo de 7 votos, uno por cada cargo.</li>
-<li>El votante no esta obligado a votar. Está permitido el voto en blanco de cualquiera de los cargos de la boleta.</li>
+<li>El votante no está obligado a votar.</li>
+<li>Está permitido el voto en blanco en cualquiera de los cargos de la boleta.</li>
 <li>El voto una vez confirmado es inalterable, y se registra en total anonimato.</li>
+<li>El votante solo tendrá acceso a los resultados el día 7 de julio a las 4:30 pm.</li>
 </ul>
 <h2 id="componentes-del-sistema-vot-e">Componentes del sistema VOT-E</h2>
+<p>El Sistema se estructura de tres componentes de estado e interacción que facilitan la navegación del usuario por la plataforma:</p>
+<ul>
+<li><a href="./#menu-de-navegacion-lateral">Menú de navegación lateral</a></li>
+<li><a href="./#menu-de-navegacion-inferior">Menú de navegación inferior</a></li>
+<li><a href="./#linea-de-tiempo">Línea de tiempo</a></li>
+</ul>
 <h3 id="menu-de-navegacion-lateral">Menú de navegación lateral</h3>
 <p>Es el componente principal de navegación en el sistema y podemos realizar las acciones siguientes:</p>
 <ul>
@@ -596,7 +648,7 @@ Antes del día 30 de junio el sistema envía por correo electrónico a cada miem
 </figure>
 <h2 id="emitir-voto">Emitir voto</h2>
 <p>Una vez que el proceso de votación a iniciado, se activa en el sistema la opción para emitir voto. Se puede acceder por cualquiera de los dos menú de navegación (<a href="./#menu-de-navegacion-lateral">lateral</a> e <a href="./#menu-de-navegacion-inferior">inferior</a>).</p>
-<p>No estamos obligado a votar por todos los cargos. Es decir, es posible el voto en blanco de cualquiera de los cargos de la boleta.</p>
+<p>No estamos obligado a votar. Es decir, está permitido el voto en blanco en cualquiera de los cargos de la boleta.</p>
 <figure>
 <p><img _="," align="left" alt="emit1" height="300" loading="lazy," src="../../img/emitir_voto_menu_lateral.png" width="200" /></p>
 <figcaption>Emitir voto - menú lateral</figcaption>
@@ -612,6 +664,16 @@ Antes del día 30 de junio el sistema envía por correo electrónico a cada miem
 <figure>
 <p><img _="," align="left" alt="emit2" loading="lazy," src="../../img/emitir_voto_menu_3.png" width="380" /></p>
 <figcaption>Emitir voto - confirmar</figcaption>
+</figure>
+<h2 id="mostrar-resultados-del-proceso-electoral">Mostrar resultados del proceso electoral</h2>
+<p>Los resultado se muestran luego de concluido el proceso electoral. Podemos ver el resultado en el <a href="./#menu-de-navegacion-lateral">menú de navegación lateral</a> y presionando <em>Resultado</em>.</p>
+<figure>
+<p><img _="," align="left" alt="emit2" height="300" loading="lazy," src="../../img/mostrar_resultados_menu_lateral.png" width="200" /></p>
+<figcaption>Resultado</figcaption>
+</figure>
+<figure>
+<p><img _="," align="left" alt="emit2" loading="lazy," src="../../img/mostrar_resultados_menu_inferior.png" width="380" /></p>
+<figcaption>Resultado - menu inferior y solo en navegadores de PC</figcaption>
 </figure>
 <h2 id="cerrar-sesion-o-salir-del-sistema">Cerrar sesión o salir del sistema</h2>
 <p>Podemos salir del sistema dirigiéndonos al <a href="./#menu-de-navegacion-lateral">menú de navegación lateral</a> y presionando <em>Cerrar</em>.</p>
@@ -650,13 +712,13 @@ Antes del día 30 de junio el sistema envía por correo electrónico a cada miem
       
       
         
-        <a href="../../glossary/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Glosario" rel="next">
+        <a href="../app_mobile/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: VOT-E para Android" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Siguiente
               </span>
-              Glosario
+              VOT-E para Android
             </div>
           </div>
           <div class="md-footer__button md-icon">
